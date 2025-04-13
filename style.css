@@ -110,19 +110,22 @@ main img{
     width: 100%;
 }
 
-div.video{
+main div.video{
     background-color: var(--cor5);
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    aspect-ratio: 16 / 9;
     align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 65vh;
+    height: 50vh;
 }
 
-.video iframe{
-    justify-content: center;
-    height: 100%;
-    width: 100%;
+main .video iframe{
+    width: 85vw;
+    height: 40vh;
+    border: 1px solid var(--cor2);
 }
 
 .pequena{
@@ -225,4 +228,5 @@ footer a:hover{
     .pequena {
         max-width: 100%;
     }
+
 }
