@@ -112,23 +112,18 @@ main img{
 
 div.video{
     background-color: var(--cor5);
-    margin: 0 -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 2%;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
     aspect-ratio: 16 / 9;
+    align-content: center;
 }
 
-div .video iframe{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+.video iframe{
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
-
 
 .pequena{
     max-width: 350px;
